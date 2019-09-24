@@ -1,0 +1,27 @@
+# Don't check auto-generated stuff into git
+coverage
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.vscode
+.env 
+
+yarn.lock
+
+package-lock.json
+.directory
+
+
+#server
+server/node_modules
+server/test/node_modules
+
+
+#client
+client/node_modules1
+client/node_modules
+
